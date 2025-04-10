@@ -4,7 +4,7 @@ const { sendMessage } = require('../handles/sendMessage');
 
 module.exports = {
   name: 'help',
-  description: 'Show available commands',
+  description: 'Voir la liste de commands',
   usage: 'help\nhelp [command name]',
   author: 'System',
   execute(senderId, args, pageAccessToken) {
