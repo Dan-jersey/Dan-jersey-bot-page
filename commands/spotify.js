@@ -3,7 +3,7 @@ const { sendMessage } = require('../handles/sendMessage');
 
 module.exports = {
   name: 'spotify',
-  description: 'recherche les musiques que tu veux à l'aide de leur titre.',
+  description: 'recherche les musiques que tu veux à l aide de leur titre.',
   usage: 'spotify [nom de la musique]',
   author: 'coffee',
 
