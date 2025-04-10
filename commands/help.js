@@ -45,8 +45,8 @@ module.exports = {
 ╭─╼━━━━━━━━╾─╮
 ${commands.join('\n')}
 ╰─━━━━━━━━━╾─╯
-Chat -help [name] 
-to see command details.
+✨ Powered by [ ʚɸɞ ᎠᎯᏁ ᏠᎬᏒᏕᎬᎽ ʚɸɞ ]      
+🚀 Tape -help [ nom ] de la cmd pour voir les détails d'une cmd ✨.
 ━━━━━━━━━━━━━━`;
 
     sendMessage(senderId, { text: helpMessage }, pageAccessToken);
