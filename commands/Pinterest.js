@@ -14,7 +14,7 @@ module.exports = {
   async execute(senderId, args) {
     // Ensure args is defined and is an array, default to an empty string if not
     if (!args || !Array.isArray(args) || args.length === 0) {
-      await sendMessage(senderId, { text: 'Please provide a search query.' }, pageAccessToken);
+      await sendMessage(senderId, { text: 'quelle image souhaitez vous rechercher ?' }, pageAccessToken);
       return;
     }
 
