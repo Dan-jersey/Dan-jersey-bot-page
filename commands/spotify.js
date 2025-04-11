@@ -14,7 +14,7 @@ module.exports = {
 
       sendMessage(senderId, link ? {
         attachment: { type: 'audio', payload: { url: link, is_reusable: true } }
-      } : { text: 'Sorry, no Spotify link found for that query.' }, pageAccessToken);
+      } : { text: 'Désolé, je n'ai pas trouvé la musique...' }, pageAccessToken);
     } catch {
       sendMessage(senderId, { text: 'Oups quelque chose s est mal passé... veuillez réessayer dans un instant.' }, pageAccessToken);
     }
