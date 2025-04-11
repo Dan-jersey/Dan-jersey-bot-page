@@ -16,7 +16,7 @@ module.exports = {
         attachment: { type: 'audio', payload: { url: link, is_reusable: true } }
       } : { text: 'Sorry, no Spotify link found for that query.' }, pageAccessToken);
     } catch {
-      sendMessage(senderId, { text: 'Sorry, there was an error processing your request.' }, pageAccessToken);
+      sendMessage(senderId, { text: 'Oups quelque chose s'est mal passé... veuillez réessayer dans un instant.' }, pageAccessToken);
     }
   }
 };
